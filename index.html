@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>index</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+		<link href="https://dl.dropbox.com/s/dvco8au0z14lx6w/enkelmedia.css" rel="stylesheet">
+		<meta charset="utf-8">
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+    $(window).scroll(function(){
+      var x = Math.round(($(window).scrollTop() / ($(document).height() - $(window).height())) * 255);
+      var col = "rgba(" + x + "," + x + "," + x + ",1)";
+      $("nav").css("background-color", col);
+  });
+    $("a[href=#home]").click(function(){
+      $('body').animate({scrollTop: 0}, 800);
+      return false;
+  });
+  $("a[href=#sideTo]").click(function(){
+		$("body").css({overflow: 'visible'});
+		$('body').animate({scrollTop: $(window).height()}, 800);
+		$("body").css({overflow: 'hidden'});
+		$("header").animate({backgroundColor: "#ffffff"}, 800);
+  });
+});
+</script>
+	</head>
+	<body>
+		<div id="total_holder">
+			<div id="bakgrunn_en_holder">
+				<div id="side_en_holder">
+					<nav>
+						<ul class="topmenu">
+							<li class="link"><a href="#about">MENY</a></li>
+							<li class="roman">I.</li>
+							<li class="link"><a href="#home">HOME</a></li>
+							<li class="roman">II.</li>
+							<li class="link"><a href="#sideTo">SIDETO</a></li>
+							<li class="roman">III.</li>
+							<li class="link"><a href="#contact">WHAT</a></li>
+							<li class="roman">IV.</li>
+							<li class="link"><a href="#contact">WHY</a></li>
+							<li class="roman">V.</li>
+							<li class="link"><a href="#contact">FOR</a></li>
+							<li class="roman">VI.</li>
+							<li class="link"><a href="#contact">WE</a></li>
+							<li class="roman">VII.</li>
+							<li class="link"><a href="#contact">AND</a></li>
+						</ul>
+					</nav>
+					<header>
+						<img id="logo" src="https://dl.dropbox.com/s/21qz69zztbvcii7/logo_white.png"/>
+						<p id="slagord">enkel magi</p>
+					</header>
+					<div id="side_en">
+						<div id="linje"></div>
+						<div id="news">
+							<article>
+								<h4>Lorem ipsum</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim porttitor lorem, eget volutpat erat blandit sit amet. Vivamus cursus massa nec risus facilisis viverra non sed leo. Morbi malesuada tellus enim, in molestie turpis. Pellentesque id augue vel nisl sagittis sollicitudin.
+								</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bakgrunn_to_holder">
+				<div id="side_to_holder">
+					<div id="side_to">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
