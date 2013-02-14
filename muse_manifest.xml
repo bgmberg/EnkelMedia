@@ -1,0 +1,32 @@
+<manifest alg="2" build="2" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="435490923"/>
+    <file name="master_a-master.css" crc="4066267111" ref="index"/>
+    <file name="index.css" crc="4023921374" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="526788486" ref="index"/>
+      <file name="museutils.js" crc="410024474" ref="index"/>
+      <file name="pie.js" crc="4067523484" ref="index"/>
+      <file name="pie.htc" crc="119515598" ref="index"/>
+      <file name="jquery.watch.js" crc="3882405427" ref="index"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="bg100x100.jpg" crc="382870275" ref="index"/>
+    <file name="u102-4.png" crc="4095496845" ref="index"/>
+    <file name="u90-3.png" crc="4002034106" ref="index"/>
+    <file name="logo.png" crc="122151036" ref="index"/>
+    <file name="u91-4.png" crc="4021166702" ref="index"/>
+    <file name="u95-4.png" crc="4092210519" ref="index"/>
+    <file name="u94-4.png" crc="3879418921" ref="index"/>
+    <file name="punchline.png" crc="4273090638" ref="index"/>
+    <file name="trianglebigverticaltparting.png" crc="115195126" ref="index"/>
+    <file name="u163-4.png" crc="268723821" ref="index"/>
+    <file name="u160-22.png" crc="136923099" ref="index"/>
+    <file name="u162-22.png" crc="136923099" ref="index"/>
+    <file name="trianglebighorizontparting.png" crc="3954592426" ref="index"/>
+  </folder>
+  <file name="index.html" crc="39115868" mt="1360855596318"/>
+</manifest>
